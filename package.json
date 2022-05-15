@@ -1,0 +1,22 @@
+{
+  "name": "safefishing-api",
+  "version": "1.0.0",
+  "description": "API para el Proyecto del Hackathon Hack The Ocean | LaunchX ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ange1D/SafeFishing-API.git"
+  },
+  "author": "Ange1D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ange1D/SafeFishing-API/issues"
+  },
+  "homepage": "https://github.com/Ange1D/SafeFishing-API#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
