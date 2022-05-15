@@ -13,3 +13,8 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Listening to requests on port ${port}`);
 });
+
+app.get('/fish', async (req, res) => {
+    const allfish =  await prisma.fish.findMany({});
+    res.json(allfish);
+  });
