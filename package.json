@@ -2,8 +2,9 @@
   "name": "safefishing-api",
   "version": "1.0.0",
   "description": "API para el Proyecto del Hackathon Hack The Ocean | LaunchX ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "devDependencies": {
     "express": "^4.18.1",
     "prisma": "^3.14.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.14.0"
   }
 }

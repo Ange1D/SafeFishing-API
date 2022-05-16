@@ -16,4 +16,6 @@ model Fish {
   year String @db.VarChar(255)
   tonnesPerYear  String @db.VarChar(255)
   endangered Boolean @default(false)
+  dateStart DateTime
+  dateEnd DateTime
 }
