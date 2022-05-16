@@ -18,4 +18,5 @@ model Fish {
   endangered Boolean @default(false)
   dateStart DateTime
   dateEnd DateTime
+  state String @db.VarChar(255)
 }
